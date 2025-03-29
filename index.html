@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Графики на Chart.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chart-container">
+        <div class="chart-box">
+            <h3>Line Chart</h3>
+            <canvas id="lineChartCanvas"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Bar Chart</h3>
+            <canvas id="barChartCanvas"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Pie Chart</h3>
+            <canvas id="pieChartCanvas"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Radar Chart</h3>
+            <canvas id="radarChartCanvas"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Polar Area Chart</h3>
+            <canvas id="polarChartCanvas"></canvas>
+        </div>
+    </div>
+
+    <!-- Подключаем Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Подключаем главный скрипт -->
+    <script type="module" src="script.js"></script>
+    
+</body>
+</html>
+
